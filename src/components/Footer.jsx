@@ -4,12 +4,13 @@ import {
     FaLinkedin,
     FaInstagram,
     FaTwitter,
-    FaYoutube
+    FaYoutube,
+    FaWhatsapp
 } from 'react-icons/fa';
 
 export const Footer = () => {
   return (
-    <div className='w-full mt-32 bg-slate-900 text-gray-300 py-y px-2'>
+    <div className='w-full bg-slate-900 text-gray-300 px-2'>
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
             <div>
                 <h6 className='font-bold uppercase pt-2'>Solutions</h6>
@@ -72,6 +73,7 @@ export const Footer = () => {
                 <FaInstagram className='cursor-pointer hover:text-indigo-600' />
                 <FaTwitter className='cursor-pointer hover:text-indigo-600' />
                 <FaYoutube className='cursor-pointer hover:text-indigo-600' />
+                <FaWhatsapp className='cursor-pointer hover:text-indigo-600' />
                 <FaLinkedin className='cursor-pointer hover:text-indigo-600' />
             </div>
         </div>

@@ -28,7 +28,7 @@ export const Service = () => {
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                        <p className='flex items-center text-indigo-600'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></p>
                     </div>
                 </div>
                 <div className='bg-white rounded-xl shadow-2xl'>
@@ -39,7 +39,7 @@ export const Service = () => {
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                        <p className='flex items-center text-indigo-600'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></p>
                     </div>
                 </div>
                 <div className='bg-white rounded-xl shadow-2xl'>
@@ -50,7 +50,7 @@ export const Service = () => {
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                        <p className='flex items-center text-indigo-600'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></p>
                     </div>
                 </div>
                 <div className='bg-white rounded-xl shadow-2xl'>
@@ -61,7 +61,7 @@ export const Service = () => {
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <p className='flex items-center text-indigo-600'>Contact Us <ArrowSmRightIcon className='w-5 ml-2' /></p>
+                        <p className='flex items-center text-indigo-600'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></p>
                     </div>
                 </div>
             </div>

@@ -1,14 +1,13 @@
 import React from "react";
 import contactImg from "../assets/contact-img.svg";
 
-const Contact = () => {
+const GetInTouch = () => {
   return (
-    <div name="contact" className="pt-[60px]  bg-zinc-200 flex flex-col justify-between">
+    <div name="contact" className="w-full bg-zinc-200 flex flex-col justify-between p-0">
       <div className="grid md:grid-cols-2 max-w-[1024px] m-auto">
         <div>
             <img src={contactImg} alt="contactImg" className="w-[92%]" />
         </div>
-           
         <div>
         <h2 className="font-bold text-[45px] mb-[30px]">Get In Touch</h2>
             <form>
@@ -39,4 +38,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default GetInTouch;
