@@ -13,46 +13,42 @@ export const Footer = () => {
     <div className='w-full bg-slate-900 text-gray-300 px-2'>
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
             <div>
-                <h6 className='font-bold uppercase pt-2'>Solutions</h6>
+                <h6 className='font-bold uppercase pt-2'>Links</h6>
                 <ul>
-                    <li className='py-1'>Marketing</li>
-                    <li className='py-1'>Analytics</li>
-                    <li className='py-1'>Commerce</li>
-                    <li className='py-1'>Data</li>
-                    <li className='py-1'>Cloud</li>
+                    <li className='py-1'>Home</li>
+                    <li className='py-1'>About</li>
+                    <li className='py-1'>Service</li>
+                    <li className='py-1'>Contact</li>
                 </ul>
             </div>
 
             <div>
-                <h6 className='font-bold uppercase pt-2'>Support</h6>
+                <h6 className='font-bold uppercase pt-2'>Services</h6>
                 <ul>
-                    <li className='py-1'>Marketing</li>
-                    <li className='py-1'>Analytics</li>
-                    <li className='py-1'>Commerce</li>
-                    <li className='py-1'>Data</li>
-                    <li className='py-1'>Cloud</li>
+                    <li className='py-1'>Web</li>
+                    <li className='py-1'>Design</li>
+                    <li className='py-1'>Consulting</li>
+                    <li className='py-1'>App</li>
                 </ul>
             </div>
 
             <div>
                 <h6 className='font-bold uppercase pt-2'>Company</h6>
                 <ul>
-                    <li className='py-1'>Marketing</li>
-                    <li className='py-1'>Analytics</li>
-                    <li className='py-1'>Commerce</li>
-                    <li className='py-1'>Data</li>
-                    <li className='py-1'>Cloud</li>
+                    <li className='py-1'>About Us</li>
+                    <li className='py-1'>Join Us</li>
+                    <li className='py-1'>Help Center</li>
+                    <li className='py-1'>ECommerce</li>
                 </ul>
             </div>
 
             <div>
                 <h6 className='font-bold uppercase pt-2'>Legal</h6>
                 <ul>
-                    <li className='py-1'>Marketing</li>
-                    <li className='py-1'>Analytics</li>
-                    <li className='py-1'>Commerce</li>
-                    <li className='py-1'>Data</li>
-                    <li className='py-1'>Cloud</li>
+                    <li className='py-1'>Privacy Policy</li>
+                    <li className='py-1'>Legal Notices</li>
+                    <li className='py-1'>Data Protection</li>
+                    <li className='py-1'>Cookies</li>
                 </ul>
             </div>
 

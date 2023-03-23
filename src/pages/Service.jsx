@@ -21,25 +21,25 @@ const Service = () => {
     {
       title : "Web Development",
       firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Ausy can help you to create more value throughout your entire organisation.",
+      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
       img: webDevImg
     },
     {
       title : "Design",
       firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Ausy can help you to create more value throughout your entire organisation.",
+      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
       img: design
     },
     {
       title : "IT Consulting",
       firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Ausy can help you to create more value throughout your entire organisation.",
+      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
       img: itConsulting
     },
     {
       title : "App Development",
       firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Ausy can help you to create more value throughout your entire organisation.",
+      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
       img: appDevelopment
     },
 
@@ -50,7 +50,7 @@ const Service = () => {
       <Navbar />
       <Banner img={bgService} title="Our Services" firstSentence="We provide services to build your digital presence" secondSentence="check out our services"/>
       <Transition bgColor="bg-slate-900" textColor="text-white" />
-      {cardDetails.map((item, index) => (
+      {cardDetails && cardDetails.map((item, index) => (
         <Card key={index}
           title={item.title}
           firstText={item.firstText}
