@@ -9,15 +9,16 @@
     "hero_h1": "Transformation Numérique",
     "hero_second_p": "et à construire votre avenir dès aujourd'hui.",
     "our_services": "Nos Services",
-    "web_dev": "Developement Web",
-    "it_consult": "Conseils IT",
-    "app_dev": "Developement Applications",
+    "web_dev": "Dévelopement web",
+    "it_consult": "Accompagnement IT",
+    "app_dev": "Dévelopement applications",
+    "marketing_digital": "Marketing digital",
     "get_in_touch": "Contactez Nous",
     "links": "Liens",
     "company": "Entreprise",
     "legal": "Juridique",
     "web": "Web",
-    "design": "Design",
+    "design": "Conception graphique",
     "consulting": "Conseil",
     "app": "Application",
     "apropo": "A Propos",
@@ -44,6 +45,11 @@
     "secondText_0": "Avec une gamme de services orientés métier et processus, allant de l'architecture d'entreprise et de l'agilité à la cybersécurité, Darecorp peut vous aider à créer plus de valeur dans l'ensemble de votre organisation.",
     "contactTransition_first": "Vous êtes à la recherche d'un nouveau défi ?",
     "contactTransition_second": "consultez nous pour plus d'informations",
-    "challenge": "rejoignez nous"
+    "challenge": "rejoignez nous",
+    "transition_title": "Groupe de développeurs et de professionnels de l'informatique",
+    "transition_content": "Améliorer la performance de votre système informatique et augmenter votre productivité ? Faites confiance à notre expertise afin de vous aider à atteindre vos objectifs rapidement et efficacement.",
+    "service_subtitle": "Trouvez votre service",
+    "service_content": "Boostez votre entreprise grâce à nos service informatiques sur mesure : des solutions innovantes et adaptées à vos besoins pour optimiser votre système et garantir une productivité accrue.",
+    "our_service" : "Nos Services"
     
 }

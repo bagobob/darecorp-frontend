@@ -2,13 +2,13 @@ import React, { useEffect } from 'react';
 import Banner from '../components/Banner'
 import { Navbar } from '../components/Navbar';
 import bgAbout from "../assets/bg_about.png"
-import { Platform } from '../components/Platform';
 import { Footer } from '../components/Footer';
 import { Transition } from '../components/Transition';
 import Accordeon from '../components/Accordeon';
 import weAre from "../assets/and_then.png";
 import ourGoal from "../assets/what_can_we.png";
 import growth from "../assets/who_we_are.png";
+import OurValue from '../components/OurValue';
 
 const About = () => {
 
@@ -74,7 +74,7 @@ const About = () => {
       <Navbar />
       <Banner img={bgAbout} title="about_title" firstSentence="about_firstSentence" secondSentence="about_secondSentence"/>
       <Transition bgColor="bg-slate-900" textColor="text-white" />
-      <Platform />
+      <OurValue />
       {accordionDetails && accordionDetails.map((item, index) => (
         <Accordeon
           key={index}

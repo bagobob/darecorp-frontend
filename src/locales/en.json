@@ -12,12 +12,13 @@
     "web_dev": "Web Development",
     "it_consult": "IT Consulting",
     "app_dev": "App Development",
+    "marketing_digital": "Digital Marketing",
     "get_in_touch": "Get In Touch",
     "links": "Links",
     "company": "Company",
     "legal": "Legal",
     "web": "Web",
-    "design": "Design",
+    "design": "Graphic Design",
     "consulting": "Consulting",
     "app": "Application",
     "apropo": "About Us",
@@ -44,5 +45,10 @@
     "secondText_0": "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
     "contactTransition_first": "looking for your next challenge?",
     "contactTransition_second": "consult us for more information",
-    "challenge": "find a challenge"
+    "challenge": "find a challenge",
+    "transition_title": "Group of developers and IT professionals",
+    "transition_content": "Improve the performance of your IT system and increase your productivity? Trust our expertise to help you achieve your goals quickly and efficiently.",
+    "service_subtitle": "Find your service",
+    "service_content": "Boost your business with our tailored IT services: innovative solutions tailored to your needs to optimise your system and ensure increased productivity.",
+    "our_service" : "Our Services"
 }

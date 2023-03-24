@@ -5,7 +5,6 @@ import GetInTouch from '../components/GetInTouch';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
 import { Platform } from '../components/Platform';
-import { Pricing } from '../components/Pricing';
 import { Service } from '../components/Service';
 
 
@@ -15,9 +14,22 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Transition useCard />
+      {/* 
+      The Unique Selling Proposition
+      The Hero Section
+      The Benefits of our website
+      Social Proof
+      A Call To Action
+        Features
+        How It Works
+        Testimonials
+        Team Section
+        FAQs
+        Resources Section
+      */}
       <Service />
       <Platform />
-      <Pricing />
+      
       <GetInTouch />
       <Footer />
     </>

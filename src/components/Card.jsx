@@ -4,6 +4,7 @@ import withTranslation from '../withTranslation';
 const Card = (props) => {
   
   return (
+    
     <div className='w-full'>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
             <div className={`${props.order}`}>

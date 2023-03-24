@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-    CloudUploadIcon,
     DatabaseIcon,
     PaperAirplaneIcon,
     ServerIcon,
+    AcademicCapIcon
 
 } from '@heroicons/react/solid';
 import { useTranslation } from 'react-i18next';
@@ -37,7 +37,7 @@ export const Hero = () => {
                     <p className='flex px-4 py-2 text-slate-500 cursor-pointer link'><DatabaseIcon className='h-8 text-indigo-600  px-4 py-2' />
                         <Link activeClass="active" to="service" spy={true} smooth={true} offset={-50} duration={500}>{t('design')}</Link>
                     </p>
-                    <p className='flex px-4 py-2 text-slate-500 cursor-pointer link'><CloudUploadIcon className='h-8 text-indigo-600   px-4 py-2 ' />
+                    <p className='flex px-4 py-2 text-slate-500 cursor-pointer link'><AcademicCapIcon className='h-8 text-indigo-600  px-4 py-2 ' />
                     <Link activeClass="active" to="service" spy={true} smooth={true} offset={-50} duration={500}>{t('it_consult')}</Link>
                     </p>
                     <p className='flex px-4 py-2 text-slate-500 cursor-pointer link'><PaperAirplaneIcon className='h-8 text-indigo-600  px-4 py-2' />
