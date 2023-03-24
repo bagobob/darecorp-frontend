@@ -37,7 +37,7 @@ const Service = () => {
       img: itConsulting
     },
     {
-      titleKey : "app_dev",
+      title : "app_dev",
       firstText: "firstText_0",
       secondText: "secondText_0",
       img: appDevelopment
