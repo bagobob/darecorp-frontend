@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import logo from "../assets/logo-1.png";
@@ -9,6 +10,12 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
     setNav(!nav);
+  };
+
+  const { t, i18n } = useTranslation();
+
+  const handleLangChange = (lang) => {
+    i18n.changeLanguage(lang)
   };
 
   return (
@@ -27,7 +34,7 @@ export const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                Home
+                {t('home')}
               </NavLink>
             </li>
 
@@ -40,7 +47,7 @@ export const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }>
 
-                About
+                {t('about')}
 
               </NavLink>
             </li>
@@ -52,7 +59,7 @@ export const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                Service
+                {t('service')}
               </NavLink>
             </li>
       
@@ -64,14 +71,22 @@ export const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                Contact
+                {t('contact')}
               </NavLink>
             </li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4 items-center">
-          <span className="border-none bg-transparent text-black mr-4">FR</span>
-          <span className="px-8 py-3">EN</span>
+          <span className={`border-none mr-4 cursor-pointer ${
+            i18n.language === 'fr' ? 'text-indigo-600' : 'bg-transparent text-black'
+          }`}
+          onClick={() => handleLangChange('fr')}>
+            FR
+          </span>
+          <span className={`px-8 py-3 cursor-pointer ${
+            i18n.language === 'en' ? 'text-indigo-600' : 'bg-transparent text-black'
+          }`} 
+          onClick={() => handleLangChange('en')}>EN</span>
         </div>
 
         <div className="md:hidden mr-4" onClick={handleClick}>
@@ -88,7 +103,7 @@ export const Navbar = () => {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            Home
+            {t('home')}
           </NavLink>
         </li>
         <li className="border-b-2 border-zinc-300 w-full cursor-pointer">
@@ -99,7 +114,7 @@ export const Navbar = () => {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            About
+            {t('about')}
           </NavLink>
         </li>
         <li className="border-b-2 border-zinc-300 w-full cursor-pointer">
@@ -110,7 +125,7 @@ export const Navbar = () => {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            Service
+            {t('service')}
           </NavLink>
         </li>
       
@@ -122,14 +137,22 @@ export const Navbar = () => {
               isPending ? "pending" : isActive ? "active" : ""
             }
           >
-            Contact
+            {t('contact')}
           </NavLink>
         </li>
         <li className="flex flex-col my-4">
-          <span className="bg-transparent px-8 py-3 mb-4">
+          <span 
+          className={`px-8 py-3 mb-4  cursor-pointer ${
+            i18n.language === 'fr' ? 'text-indigo-600' : 'bg-transparent text-black'
+          }`}
+          onClick={() => handleLangChange('fr')}>
             FR
           </span>
-          <span className="px-8 py-3">
+          <span 
+          className={`px-8 py-3 cursor-pointer ${
+            i18n.language === 'en' ? 'text-indigo-600' : 'bg-transparent text-black'
+          }`} 
+          onClick={() => handleLangChange('en')}>
             EN
           </span>
         </li>

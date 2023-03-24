@@ -19,27 +19,27 @@ const Service = () => {
 
   const cardDetails = [
     {
-      title : "Web Development",
-      firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
+      title : "web_dev",
+      firstText: "firstText_0",
+      secondText: "secondText_0",
       img: webDevImg
     },
     {
-      title : "Design",
-      firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
+      title : "design",
+      firstText: "firstText_0",
+      secondText: "secondText_0",
       img: design
     },
     {
-      title : "IT Consulting",
-      firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
+      title : "it_consult",
+      firstText: "firstText_0",
+      secondText: "secondText_0",
       img: itConsulting
     },
     {
-      title : "App Development",
-      firstText: "Performance, agility, and resilience are key to your transformation challenge if you are to enhance your ability to compete and create new markets. ",
-      secondText: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security, Darecorp can help you to create more value throughout your entire organisation.",
+      titleKey : "app_dev",
+      firstText: "firstText_0",
+      secondText: "secondText_0",
       img: appDevelopment
     },
 
@@ -48,10 +48,11 @@ const Service = () => {
   return (
     <>
       <Navbar />
-      <Banner img={bgService} title="Our Services" firstSentence="We provide services to build your digital presence" secondSentence="check out our services"/>
+      <Banner img={bgService} title="service_title" firstSentence="service_firstSentence" secondSentence="service_secondSentence"/>
       <Transition bgColor="bg-slate-900" textColor="text-white" />
       {cardDetails && cardDetails.map((item, index) => (
-        <Card key={index}
+        <Card 
+          key={index}
           title={item.title}
           firstText={item.firstText}
           secondText={item.secondText}

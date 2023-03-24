@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <Banner img={bgContact} title="Contact Us" firstSentence="Drop us a line and we will we get in touch" secondSentence="We are available for your demands." />
+      <Banner img={bgContact} title="contact_title" firstSentence="contact_firstSentence" secondSentence="contact_secondSentence" />
       <ContactTransition />
       <ContactUs />
       <Footer />

@@ -72,7 +72,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <Banner img={bgAbout} title="About Us" firstSentence="Lead the technological transformation that excites" secondSentence="we believe in the power of technology"/>
+      <Banner img={bgAbout} title="about_title" firstSentence="about_firstSentence" secondSentence="about_secondSentence"/>
       <Transition bgColor="bg-slate-900" textColor="text-white" />
       <Platform />
       {accordionDetails && accordionDetails.map((item, index) => (

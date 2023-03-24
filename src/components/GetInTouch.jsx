@@ -1,7 +1,9 @@
 import React from "react";
 import contactImg from "../assets/contact-img.svg";
+import { useTranslation } from 'react-i18next';
 
 const GetInTouch = () => {
+    const { t } = useTranslation();
   return (
     <div name="contact" className="w-full bg-zinc-200 flex flex-col justify-between p-0">
       <div className="grid md:grid-cols-2 max-w-[1024px] m-auto">
@@ -9,7 +11,7 @@ const GetInTouch = () => {
             <img src={contactImg} alt="contactImg" className="w-[92%]" />
         </div>
         <div>
-        <h2 className="font-bold text-[45px] mb-[30px]">Get In Touch</h2>
+        <h2 className="font-bold text-[45px] mb-[30px]">{t('get_in_touch')}</h2>
             <form>
                 <div className="grid md:grid-cols-2 max-w-[1024px] m-auto">
                     <div className="mr-2">
