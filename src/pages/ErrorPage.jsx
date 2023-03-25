@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useRouteError } from 'react-router-dom';
-import bgError from "./assets/bg_error.png";
+import bgError from "../assets/img/bg_error.png";
 
 const ErrorPage = () => {
     const error = useRouteError();

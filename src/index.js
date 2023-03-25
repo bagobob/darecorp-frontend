@@ -13,7 +13,7 @@ import frTranslation from "./locales/fr.json";
 import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
-import ErrorPage from './ErrorPage';
+import ErrorPage from './pages/ErrorPage';
 
 
 i18n.use(initReactI18next).init({

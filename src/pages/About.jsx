@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import Banner from '../components/Banner'
 import { Navbar } from '../components/Navbar';
-import bgAbout from "../assets/bg_about.png"
+import bgAbout from "../assets/img/bg_about.png"
 import { Footer } from '../components/Footer';
 import { Transition } from '../components/Transition';
 import Accordeon from '../components/Accordeon';
-import weAre from "../assets/and_then.png";
-import ourGoal from "../assets/what_can_we.png";
-import growth from "../assets/who_we_are.png";
+import weAre from "../assets/img/and_then.png";
+import ourGoal from "../assets/img/what_can_we.png";
+import growth from "../assets/img/who_we_are.png";
 import OurValue from '../components/OurValue';
 
 const About = () => {

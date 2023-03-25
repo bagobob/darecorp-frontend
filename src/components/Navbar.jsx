@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import logo from "../assets/logo-1.png";
+import logo from "../assets/img/logo-1.png";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
@@ -87,6 +87,7 @@ export const Navbar = () => {
             i18n.language === 'en' ? 'text-indigo-600' : 'bg-transparent text-black'
           }`} 
           onClick={() => handleLangChange('en')}>EN</span>
+          <button className="py-3 px-3">Demander un devis</button>
         </div>
 
         <div className="md:hidden mr-4" onClick={handleClick}>
@@ -155,6 +156,7 @@ export const Navbar = () => {
           onClick={() => handleLangChange('en')}>
             EN
           </span>
+          <button className="py-3 px-8">Demander un devis</button>
         </li>
 
       </ul>

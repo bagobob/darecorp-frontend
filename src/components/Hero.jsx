@@ -7,7 +7,7 @@ import {
 
 } from '@heroicons/react/solid';
 import { useTranslation } from 'react-i18next';
-import bagImg from "../assets/bg-illustration-removebg.png";
+import bagImg from "../assets/img/bg-illustration-removebg.png";
 import {Link} from 'react-scroll';
 import Scroll from './Scroll';
 

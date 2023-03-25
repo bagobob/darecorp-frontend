@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import Banner from '../components/Banner';
 import { Navbar } from '../components/Navbar';
-import bgService from "../assets/bg_service.png";
+import bgService from "../assets/img/bg_service.png";
 import { Footer } from '../components/Footer';
 import { Transition } from '../components/Transition';
 import Card from '../components/Card';
-import webDevImg from "../assets/web_dev.png";
-import design from "../assets/design.png";
-import itConsulting from "../assets/it_consulting.png";
-import appDevelopment from "../assets/app_development.png";
+import webDevImg from "../assets/img/web_dev.png";
+import design from "../assets/img/design.png";
+import itConsulting from "../assets/img/it_consulting.png";
+import appDevelopment from "../assets/img/app_development.png";
 
 
 const Service = () => {

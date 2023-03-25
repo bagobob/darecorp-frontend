@@ -4,8 +4,9 @@ import { Footer } from '../components/Footer';
 import GetInTouch from '../components/GetInTouch';
 import { Hero } from '../components/Hero';
 import { Navbar } from '../components/Navbar';
-import { Platform } from '../components/Platform';
 import { Service } from '../components/Service';
+import HowItWork from '../components/HowItWork';
+import AskDevis from '../components/AskDevis';
 
 
 const Home = () => {
@@ -28,8 +29,8 @@ const Home = () => {
         Resources Section
       */}
       <Service />
-      <Platform />
-      
+      <HowItWork />
+      <AskDevis />
       <GetInTouch />
       <Footer />
     </>

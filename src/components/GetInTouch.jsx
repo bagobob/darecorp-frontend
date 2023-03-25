@@ -1,5 +1,5 @@
 import React from "react";
-import contactImg from "../assets/contact-img.svg";
+import contactImg from "../assets/img/contact-img.svg";
 import { useTranslation } from 'react-i18next';
 
 const GetInTouch = () => {

@@ -4,12 +4,12 @@ import {
 } from '@heroicons/react/outline';
 
 import { QrcodeIcon, DesktopComputerIcon,DeviceMobileIcon, PencilIcon} from "@heroicons/react/solid";
-import serviceImg from "../assets/service.jpg";
+import serviceImg from "../assets/img/service.jpg";
 import { useTranslation } from 'react-i18next';
-import webDevService from "../assets/service_web.png";
-import graphicDesignService from "../assets/graphic_designer.png";
-import itConsultService from "../assets/marketing_digital.png";
-import appDevService from "../assets/app_dev.png";
+import webDevService from "../assets/img/service_web.png";
+import graphicDesignService from "../assets/img/graphic_designer.png";
+import itConsultService from "../assets/img/marketing_digital.png";
+import appDevService from "../assets/img/app_dev.png";
 import { Link } from 'react-router-dom';
 
 
