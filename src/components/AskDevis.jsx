@@ -9,10 +9,10 @@ const AskDevis = () => {
                     <img className="w-full" src={Devis} alt="" />
                 </div>
 
-                <div className="flex flex-col justify-center md:items-start w-full px-2 py-8 ml-8">
+                <div className="flex flex-col justify-center md:items-start w-full px-2 py-8 md:ml-8">
                     <h1 className='py-3 text-3xl md:text-5xl font-bold'>Vous avez des grands projets pour votre marque ? On en parle ?</h1>
-                    <p className='py-4 font-medium text-gray-200'>Pour nous envoyer un extrait un petit mot, c'est par ici.</p>
-                    <button className="py-3 md:px-3 sm:w-[50%] my-4">Contactez Nous</button>
+                    <p className='py-4 font-medium text-gray-200'>Pour nous envoyer un extrait ou un petit mot, c'est par ici.</p>
+                    <button className='py-4 px-6 my-4'>Contactez Nous</button>
                 </div>
             </div>
         </div>
