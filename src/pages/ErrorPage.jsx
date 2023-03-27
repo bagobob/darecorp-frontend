@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useRouteError } from 'react-router-dom';
 import bgError from "../assets/img/bg_error.png";
+import { Link } from 'react-router-dom';
 
 const ErrorPage = () => {
     const error = useRouteError();
@@ -18,6 +19,12 @@ const ErrorPage = () => {
             <p className='text-gray-400'>
                 <i>{error.statusText || error.message}</i>
             </p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+            <Link to="/">
+              <button class="p-8">Go back home</button>
+            </Link>
+              
+            </div>
     </div>
   </div>
 </div>

@@ -2,7 +2,7 @@
 
 You can have a showcase of this project [Here](https://darecorp-frontend.vercel.app/). 
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot_v2.png)
 
 ## Available Scripts
 

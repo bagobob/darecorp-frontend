@@ -6,7 +6,7 @@ export const Transition = ({ bgColor, textColor, useCard = false }) => {
     const { t } = useTranslation();
 
     return (
-        <div name="about" className={`w-full my-32 ${bgColor} ${textColor}`}>
+        <div name="about" className={`w-full mt-32 ${bgColor} ${textColor}`}>
             <div className='max-w-[1240px] mx-auto'>
                 <div className='text-center py-8'>
                     <h2 className='text-5xl font-bold'>{t('transition_title')}</h2>

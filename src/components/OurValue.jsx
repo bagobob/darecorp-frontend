@@ -3,7 +3,7 @@ import { FaHeart, FaStar, FaThumbsUp } from 'react-icons/fa';
 
 const OurValue = () => {
     return (
-        <div name="platform" className="w-full my-32">
+        <div name="platform" className="w-full mb-32 bg-zinc-200">
         <div className="max-w-[1240px] mx-auto px-2">
           <h2 className="text-5xl font-bold text-center py-16">Our Values</h2>
           

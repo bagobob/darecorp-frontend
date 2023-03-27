@@ -87,7 +87,10 @@ export const Navbar = () => {
             i18n.language === 'en' ? 'text-indigo-600' : 'bg-transparent text-black'
           }`} 
           onClick={() => handleLangChange('en')}>EN</span>
-          <button className="py-3 px-3">Demander un devis</button>
+          <Link to="/devis">
+            <button className="py-3 px-3">Demander un devis</button>
+          </Link>
+          
         </div>
 
         <div className="md:hidden mr-4" onClick={handleClick}>
@@ -156,7 +159,10 @@ export const Navbar = () => {
           onClick={() => handleLangChange('en')}>
             EN
           </span>
-          <button className="py-3 px-8">Demander un devis</button>
+          <Link to="/devis">
+            <button className="py-3 px-8">Demander un devis</button>
+          </Link>
+          
         </li>
 
       </ul>

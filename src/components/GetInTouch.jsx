@@ -30,6 +30,9 @@ const GetInTouch = () => {
                     </div>
                 </div>
                 <div>
+                    <input type="text" placeholder="Enterprise" className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
+                </div>
+                <div>
                     <textarea placeholder="Message" rows={6} className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none'></textarea>
                     <button className='py-3 px-6 sm:w-[100%] my-4'>Send</button>
                 </div>

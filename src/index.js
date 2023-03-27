@@ -14,6 +14,8 @@ import About from './pages/About';
 import Service from './pages/Service';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
+import Devis from './pages/Devis';
+
 
 
 i18n.use(initReactI18next).init({
@@ -49,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />
+  },
+  {
+    path: "/devis",
+    element: <Devis />
   }
 ]);
 
