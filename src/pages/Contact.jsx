@@ -17,6 +17,7 @@ const Contact = () => {
       <Banner img={bgContact} title="contact_title" firstSentence="contact_firstSentence" secondSentence="contact_secondSentence" />
       <ContactTransition />
       <ContactUs />
+      {/* FAQs */}
       <Footer />
     </>
   )

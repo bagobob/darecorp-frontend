@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import withTranslation from '../withTranslation';
 
 const Card = (props) => {
@@ -18,7 +19,10 @@ const Card = (props) => {
                 <p className='font-medium text-slate-600 mb-8'>
                 {props.t(props.secondText)}
                 </p>
-                <button className="py-3 px-6 my-4">More Infos</button>
+                <Link to={`/services/${props.link}`}>
+                  <button className="py-3 px-6 my-4">More Infos</button>
+                </Link>
+                
             </div>
         </div>
 

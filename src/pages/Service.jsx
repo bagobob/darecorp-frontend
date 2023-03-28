@@ -31,14 +31,10 @@ const Service = () => {
           img={item.img}
           order={index%2 !== 0 && "md:order-last"}
           id={item.id}
+          link={item.link}
       />
       ))
       }
-      {/* Développement web : conception d'applications web, conception de page web, conception de page vitrine, 
-          Design : Conception de design system, conception de design UI/UX, conception de maquette UX/UI
-          Conseils IT:  Marketing Digital et stratégie digitale, analyse du système informatique de l'entreprise,
-          Développement d'applications :  application mobiles android/ios, application ERP
-       */}
       <CtaSection />
       <Footer />
     </>

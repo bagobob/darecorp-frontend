@@ -10,8 +10,8 @@ const ErrorPage = () => {
         document.title = "404-Page Not Found";
       }, []);
   return (
-    <div class="flex h-screen justify-center items-center">
-  <div class="w-1/2">
+    <div className="flex h-screen justify-center items-center">
+  <div className="w-1/2">
     <img className="mx-auto"  src={bgError} alt="error" />
     <div className='flex flex-col items-center justify-center w-[100%] p-4'>
             <h1 className="py-3 text-5xl md:text-7xl font-bold">Oops!</h1>
@@ -19,9 +19,9 @@ const ErrorPage = () => {
             <p className='text-gray-400'>
                 <i>{error.statusText || error.message}</i>
             </p>
-            <div class="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link to="/">
-              <button class="p-8">Go back home</button>
+              <button className="p-3">Go back home</button>
             </Link>
               
             </div>

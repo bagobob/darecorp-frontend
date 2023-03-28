@@ -1,19 +1,18 @@
 import React from 'react'
-import Banner from '../components/Banner'
 import DevisComponent from '../components/DevisComponent'
 import { Footer } from '../components/Footer'
 import { Navbar } from '../components/Navbar'
-import bgAbout from "../assets/img/bg_about.png"
+import DetailServicesHero from '../components/DetailServiceHero'
 
 const Devis = () => {
   return (
     <>
-        {/* <Navbar /> */}
-        {/* <Banner img={bgAbout} title="about_title" firstSentence="about_firstSentence" secondSentence="about_secondSentence"/> */}
+        <Navbar />
+        <DetailServicesHero title="Obtenir Un Devis" />
         <DevisComponent />
-        {/* <Footer /> */}
+        <Footer />
     </>
-   
+  
   )
 }
 
