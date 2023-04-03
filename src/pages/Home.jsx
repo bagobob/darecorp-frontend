@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <Navbar />
       <Hero />
-      <Transition useCard />
+      <Transition transition_content={'transition_content'} transition_title={'transition_title'} useCard />
       <Service />
       <HowItWork />
       <AskDevis />

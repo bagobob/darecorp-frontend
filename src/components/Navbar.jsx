@@ -88,7 +88,7 @@ export const Navbar = () => {
           }`} 
           onClick={() => handleLangChange('en')}>EN</span>
           <Link to="/devis">
-            <button className="py-3 px-3">Demander un devis</button>
+            <button className="py-3 px-3">{t('ask_devis_button')}</button>
           </Link>
           
         </div>
@@ -160,7 +160,7 @@ export const Navbar = () => {
             EN
           </span>
           <Link to="/devis">
-            <button className="py-3 px-8">Demander un devis</button>
+            <button className="py-3 px-8">{t('ask_devis_button')}</button>
           </Link>
           
         </li>

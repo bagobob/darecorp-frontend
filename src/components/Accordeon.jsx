@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import AccordionLayout from './AccordionLayout';
 
+
 const Accordeon = ({img,title, acordion1, acordion2, acordion3, order}) => {
     const [activeIndex, setActiveIndex] = useState(1);
-
+    
     return (
         <div className='w-full '>
             <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>

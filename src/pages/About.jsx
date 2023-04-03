@@ -8,6 +8,7 @@ import Accordeon from '../components/Accordeon';
 import OurValue from '../components/OurValue';
 import CtaSection from '../components/CtaSection';
 import { accordionDetails } from '../data/accordionData';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
 
@@ -15,18 +16,18 @@ const About = () => {
     document.title = "About Us";
   }, []);
 
+  const { t } = useTranslation();
   
-
   return (
     <>
       <Navbar />
       <Banner img={bgAbout} title="about_title" firstSentence="about_firstSentence" secondSentence="about_secondSentence"/>
-      <Transition bgColor="bg-slate-900" textColor="text-white" />
+      <Transition bgColor="bg-slate-900" textColor="text-white" transition_content="transition_text_about" transition_title={'transition_title_other'} />
       <OurValue />
       {accordionDetails && accordionDetails.map((item, index) => (
         <Accordeon
           key={index}
-          title={item.title}
+          title={t(item.title)}
           img={item.img}
           acordion1={item.acordion1}
           acordion2={item.acordion2}

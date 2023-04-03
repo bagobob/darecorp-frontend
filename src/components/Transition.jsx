@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-export const Transition = ({ bgColor, textColor, useCard = false }) => {
+export const Transition = ({ bgColor, textColor, transition_content, transition_title,useCard = false }) => {
 
     const { t } = useTranslation();
 
@@ -9,9 +9,9 @@ export const Transition = ({ bgColor, textColor, useCard = false }) => {
         <div name="about" className={`w-full mt-32 ${bgColor} ${textColor}`}>
             <div className='max-w-[1240px] mx-auto'>
                 <div className='text-center py-8'>
-                    <h2 className='text-5xl font-bold'>{t('transition_title')}</h2>
+                    <h2 className='text-5xl font-bold'>{t(transition_title)}</h2>
                     <p className='text-3xl py-6 text-gray-500'>
-                    {t('transition_content')} 
+                    {t(transition_content)} 
                     </p>
                 </div>
 
@@ -31,7 +31,7 @@ export const Transition = ({ bgColor, textColor, useCard = false }) => {
                 </div>}
                 {!useCard && (
                     <div className='flex justify-center items-center pb-3'>
-                        <button className='py-3 px-3 sm:w-[25%]'>find a challenge</button>
+                        <button className='py-3 px-3 sm:w-[25%]'>{t('contact_us_button')}</button>
                     </div>
                 )
 

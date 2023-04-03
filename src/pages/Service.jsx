@@ -20,7 +20,7 @@ const Service = () => {
     <>
       <Navbar />
       <Banner img={bgService} title="service_title" firstSentence="service_firstSentence" secondSentence="service_secondSentence"/>
-      <Transition bgColor="bg-slate-900" textColor="text-white" />
+      <Transition bgColor="bg-slate-900" textColor="text-white" transition_content="transition_text_service"  transition_title={'transition_title_other'}/>
       <Benefits />
       {cardDetails && cardDetails.map((item, index) => (
         <Card 

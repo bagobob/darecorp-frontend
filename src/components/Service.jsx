@@ -16,6 +16,30 @@ import { Link } from 'react-router-dom';
 export const Service = () => {
     const { t } = useTranslation();
 
+    const serviceArray = [
+        {
+            title: t('web_dev'),
+            img: webDevService,
+            icon: <DesktopComputerIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+        },
+        {
+            title: t('design'),
+            img: graphicDesignService,
+            icon: <PencilIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+        },
+        {
+            title: t('it_consult'),
+            img: itConsultService,
+            icon: <QrcodeIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+        },
+        {
+            title: t('marketing_digital'),
+            img: appDevService,
+            icon: <DeviceMobileIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
+        }
+    ]
+    
+
 return (
     <div name="service" id="services" className='w-full mt-24 '>
         <div className='w-full h-[700px] bg-gray-900/90 absolute'>
@@ -30,54 +54,21 @@ return (
             </div>
 
             <div  className='grid grid-cols-1 lg:grid-cols-4 relative gap-x-8 gap-y-16 px-4 pt-12 sm:pt-20 text-black'>
-                <div className='bg-white rounded-xl shadow-2xl'>
+            {serviceArray && serviceArray.map((item, index) =>(
+                <div className='bg-white rounded-xl shadow-2xl' key={index}>
                     <div className='p-8'>
-                        <DesktopComputerIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                        <h3 className='font-bold text-2xl my-6'>{t('web_dev')}</h3>
+                        {item.icon}
+                        <h3 className='font-bold text-2xl my-6'>{item.title}</h3>
                         <div className='flex items-center h-48'>
-                            <img src={webDevService} className="w-full h-full object-contain" alt="web_development"/>
+                            <img src={item.img} className="w-full  h-full object-contain" alt="web_development"/>
                         </div>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <Link to="/service" className='flex items-center text-indigo-600 cursor-pointer'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></Link>
+                        <Link to="/service" className='flex items-center text-indigo-600 cursor-pointer'>{t('more_info')} <ArrowSmRightIcon className='w-5 ml-2' /></Link>
                     </div>
                 </div>
-                <div className='bg-white rounded-xl shadow-2xl '>
-                    <div className='p-8'>
-                        <PencilIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                        <h3 className='font-bold text-2xl my-6'>{t('design')}</h3>
-                        <div className='flex items-center h-48'>
-                            <img src={graphicDesignService} className="w-full h-full object-contain" alt="web_development"/>
-                        </div>
-                    </div>
-                    <div className='bg-slate-100 pl-8 py-4'>
-                        <Link to="/service" className='flex items-center text-indigo-600 cursor-pointer'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></Link>
-                    </div>
-                </div>
-                <div className='bg-white rounded-xl shadow-2xl'>
-                    <div className='p-8'>
-                        <QrcodeIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                        <h3 className='font-bold text-2xl my-6'>{t('it_consult')}</h3>
-                        <div className='flex items-center h-48'>
-                            <img src={itConsultService} className="w-full  h-full object-contain" alt="web_development"/>
-                        </div>
-                    </div>
-                    <div className='bg-slate-100 pl-8 py-4'>
-                        <Link to="/service" className='flex items-center text-indigo-600 cursor-pointer'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></Link>
-                    </div>
-                </div>
-                <div className='bg-white rounded-xl shadow-2xl'>
-                    <div className='p-8'>
-                        <DeviceMobileIcon className='w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]' />
-                        <h3 className='font-bold text-2xl my-6'>{t('app_dev')}</h3>
-                        <div className='flex items-center h-48'>
-                            <img src={appDevService} className="w-full  h-full object-contain" alt="web_development"/>
-                        </div>
-                    </div>
-                    <div className='bg-slate-100 pl-8 py-4'>
-                        <Link to="/service" className='flex items-center text-indigo-600 cursor-pointer'>More Info <ArrowSmRightIcon className='w-5 ml-2' /></Link>
-                    </div>
-                </div>
+            ))
+            }
             </div>
         </div>
     </div>

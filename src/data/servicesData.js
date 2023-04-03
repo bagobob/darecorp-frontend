@@ -7,7 +7,9 @@ import {
 export const serviceData =
     {
         webData: {
+            title: 'Web Development',
             subtitle: "",
+            description: '',
             feature: [
                 {
                     icon: <CloudDownloadIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
@@ -24,11 +26,15 @@ export const serviceData =
                     title: "Conception Pages Vitrine.",
                     description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
                 },
-
-            ]
+            ],
+            subDescription: '',
+            secondTitle: '',
+            secondContent: ''
         },
         designData: {
-            subtitle: "",
+            title: 'Design',
+            subtitle: "L'une des missions de Darecorp consiste à assurer la création et la réalisation de supports de communication en PAO (Publication Assistée par Ordinateur). Pour cela, il conçoit les supports graphiques dans le respect de la charte graphique de votre groupe",
+            description: '',
             feature: [
                 {
                     icon: <CloudDownloadIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
@@ -45,12 +51,16 @@ export const serviceData =
                     title: "Conception de maquettes UI/UX.",
                     description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
                 },
-
-            ]
+            ],
+            subDescription: '',
+            secondTitle: '',
+            secondContent: ''
             
         },
         consultItData: {
+            title: 'IT Consultation',
             subtitle: "",
+            description: '',
             feature: [
                 {
                     icon: <CloudDownloadIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
@@ -62,11 +72,15 @@ export const serviceData =
                     title: "Analyse Système Informatique.",
                     description: "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo."
                 },
-
-            ]
+            ],
+            subDescription: '',
+            secondTitle: '',
+            secondContent: ''
         },
         appData: {
+            title: 'Application Development',
             subtitle: "",
+            description: '',
             feature: [
                 {
                     icon: <CloudDownloadIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
@@ -78,7 +92,10 @@ export const serviceData =
                     title: "Conception Application ERP",
                     description: "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo."
                 },
-            ]
+            ],
+            subDescription: '',
+            secondTitle: '',
+            secondContent: ''
             
         }
     }

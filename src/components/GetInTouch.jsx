@@ -15,10 +15,10 @@ const GetInTouch = () => {
             <form>
                 <div className="grid md:grid-cols-2 max-w-[1024px] m-auto">
                     <div className="mr-2">
-                        <input type="text" placeholder="First Name" className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
+                        <input type="text" placeholder={t('first_name')} className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
                     </div>
                     <div>
-                        <input type="text" placeholder="Last Name" className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
+                        <input type="text" placeholder={t('last_name')} className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 max-w-[1024px] m-auto">
@@ -26,15 +26,15 @@ const GetInTouch = () => {
                         <input type="email" placeholder="Email" className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
                     </div>
                     <div>
-                        <input type="tel" placeholder="Phone No" className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
+                        <input type="tel" placeholder={t('phone_no')} className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
                     </div>
                 </div>
                 <div>
-                    <input type="text" placeholder="Enterprise" className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
+                    <input type="text" placeholder={t('enterprise_name')} className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none' />
                 </div>
                 <div>
                     <textarea placeholder="Message" rows={6} className='w-[100%] py-4 px-6 mr-4 rounded-md mb-4 outline-none'></textarea>
-                    <button className='py-3 px-6 sm:w-[100%] my-4'>Send</button>
+                    <button className='py-3 px-6 sm:w-[100%] my-4'>{t('send_button')}</button>
                 </div>
             </form>
         </div>

@@ -4,7 +4,7 @@ import growth from "../assets/img/who_we_are.png";
 
 export const accordionDetails = [
     {
-      title : "Who we are",
+      title : 'who_we_are_title',
       acordion1: {
         title: "men & women",
         content: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security"
@@ -20,7 +20,7 @@ export const accordionDetails = [
       img: weAre
     },
     {
-      title : "Our Goal",
+      title : "our_goal_title",
       acordion1: {
         title: "business growth",
         content: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security"
@@ -36,7 +36,7 @@ export const accordionDetails = [
       img: ourGoal
     },
     {
-      title : "Build Together",
+      title : "with_what_title",
       acordion1: {
         title: "technology of tomorrow",
         content: "With a business and process-oriented range of services, from enterprise architecture and agility through to cyber security"

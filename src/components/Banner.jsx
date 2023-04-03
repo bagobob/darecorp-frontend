@@ -1,8 +1,10 @@
 import React from "react";
 import Scroll from "./Scroll";
 import withTranslation from "../withTranslation";
+import { useTranslation } from 'react-i18next';
 
 const Banner = (props) => {
+    const { t } = useTranslation();
 
     return (
         <div
@@ -19,7 +21,7 @@ const Banner = (props) => {
                         {props.t(props.title)}
                     </h1>
                     <p className="font-medium text-slate-600">{props.t(props.secondSentence)}</p>
-                    <button className="py-3 px-6 sm:w-[60%] my-4">Get Started</button>
+                    <button className="py-3 px-6 sm:w-[60%] my-4">{t('contact_us_button')}</button>
                 </div>
             </div>
             <Scroll />

@@ -21,7 +21,7 @@ export const Hero = () => {
                 <p className='text-2xl pt-24 md:text-2xl'>{t('hero_first_p')}</p>
                 <h1 className='py-3 text-5xl md:text-7xl font-bold'>{t('hero_h1')}</h1>
                 <p className='text-2xl'>{t('hero_second_p')}</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'>Get Started</button>
+                <button className='py-3 px-6 sm:w-[60%] my-4'>{t('contact_us_button')}</button>
             </div>
             <div >
                 <img className="w-full object-cover" src={bagImg} alt="" />
@@ -41,7 +41,7 @@ export const Hero = () => {
                     <Link activeClass="active" to="service" spy={true} smooth={true} offset={-50} duration={500}>{t('it_consult')}</Link>
                     </p>
                     <p className='flex px-4 py-2 text-slate-500 cursor-pointer link'><PaperAirplaneIcon className='h-8 text-indigo-600  px-4 py-2' />
-                    <Link activeClass="active" to="service" spy={true} smooth={true} offset={-50} duration={500}>{t('app_dev')}</Link>
+                    <Link activeClass="active" to="service" spy={true} smooth={true} offset={-50} duration={500}>{t('marketing_digital')}</Link>
                     </p>
                 </div>
             </div>
